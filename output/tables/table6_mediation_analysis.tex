@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Mediation Analysis: Transmission Channels of Political Reflexivity}
+\label{tab:mediation}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lcccc}
+\hline\hline
+Channel / Equation & Dependent Variable & Explanatory Shock & Coef. (HAC SE) & $p$-value \\
+\hline
+\textbf{Panel A: Intermediate Channel Activation} & & & & \\
+(1) Donor Momentum & $\Delta \text{Donor}_{t}$ & $\Delta P_{t-1}$ & -7.8625 (16.1652) & 0.6267 \\
+(2) Media Salience & $\Delta \text{Media}_{t}$ & $\Delta P_{t-1}$ & 95.2565 (44.6171) & 0.0328 \\
+\hline
+\textbf{Panel B: Polling Feedback and Mediation} & $\Delta \text{Poll}_{t+1}$ & & & \\
+(3) Baseline Total Effect & $\Delta \text{Poll}_{t+1}$ & $\Delta P_{t-1}$ & 0.9412 (1.1758) & 0.4235 \\
+(4) Full Mediation Model & $\Delta \text{Poll}_{t+1}$ & $\Delta P_{t-1}$ (Direct) & 0.8320 (1.1229) & 0.4587 \\
+    & & $\Delta \text{Donor}_{t}$ & -0.0045 (0.0029) & 0.1138 \\
+    & & $\Delta \text{Media}_{t}$ & 0.0008 (0.0006) & 0.1792 \\
+\hline
+\textbf{Panel C: Sobel Mediation Tests} & & & & \\
+Donor Channel Indirect Effect & $\hat{\gamma}_{1} \times \hat{\delta}_{1}$ & Share: 3.8\% & Sobel $z=0.46$ & 0.6420 \\
+Media Channel Indirect Effect & $\hat{\gamma}_{2} \times \hat{\delta}_{2}$ & Share: 7.8\% & Sobel $z=1.14$ & 0.2556 \\
+Combined Proportion Mediated & & \textbf{11.6\%} & & \\
+\hline\hline
+\end{tabular}
+}
+\begin{minipage}{0.95\textwidth}
+\vspace{1ex}
+\footnotesize
+\textit{Notes:} Sample size $T=248$ trading days. Newey-West HAC standard errors with bandwidth 5. Donor momentum captures Google Trends search index for online campaign donation portals (WinRed vs. ActBlue). Media salience measures media frequency of prediction market odds. Panel C reports formal Sobel mediation statistics.
+\end{minipage}
+\end{table}

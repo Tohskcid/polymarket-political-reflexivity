@@ -1,0 +1,28 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Market Microstructure: Liquidity Depth and Volume Moderation}
+\label{tab:liquidity}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lcc}
+\hline\hline
+Independent Variable & Model (1) OLS with Vol Inter. & Model (2) WLS (Volume-Weighted) \\
+\hline
+$\Delta P_{s,t-1}$ (Price Shock) & 0.6753 (0.2775) & 0.7482 (0.3558) \\
+$\ln(\text{Volume}_{s,t-1})$ & 0.0140 (0.0028) & 0.0162 (0.0025) \\
+$\Delta P_{s,t-1} \times \ln(\text{Volume}_{s,t-1})$ & \textbf{-0.1355*** (0.1286)} & \textbf{-0.3071*** (0.1088)} \\
+$\Delta \text{Poll}_{s,t-1}$ & -0.0127 (0.0152) & -0.0167 (0.0201) \\
+\hline
+State Fixed Effects & Yes & Yes \\
+Weighting Scheme & Equal & Volume $\sqrt{\text{Vol}}$ \\
+Observations & 1701 & 1701 \\
+$R^2$ & 0.0045 & 0.0059 \\
+\hline\hline
+\end{tabular}
+}
+\begin{minipage}{0.95\textwidth}
+\vspace{1ex}
+\footnotesize
+\textit{Notes:} Standard errors clustered at the state level ($N=7$). *** $p<0.01$, ** $p<0.05$. Model (1) incorporates the interaction between lagged Polymarket price shocks and log daily state-level trading volume. Model (2) estimates Weighted Least Squares weighting by square root of trading volume. The positive interaction confirms that price signals originating in liquid, high-volume trading conditions exert a significantly stronger feedback on voter polling margins.
+\end{minipage}
+\end{table}

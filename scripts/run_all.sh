@@ -13,6 +13,7 @@ python3 scripts/acquire/fetch_all_data.py
 
 echo "[Step 2/6] Building processed analysis datasets..."
 python3 scripts/clean/build_analysis_dataset.py
+python3 scripts/clean/build_extended_datasets.py
 
 echo "[Step 3/6] Running data profiler for Table 1..."
 python3 scripts/econ_data_profiler.py \
@@ -24,9 +25,10 @@ if [ -f output/tables/descriptive_binned_means_poll_margin_vs_poly_margin.svg ];
   mv output/tables/descriptive_binned_means_poll_margin_vs_poly_margin.svg output/figures/
 fi
 
-echo "[Step 4/6] Running econometric estimations and robustness checks (SVAR, VECM, Toda-Yamamoto, Local Projections, Panel FE, Event Dummies, Subsamples)..."
+echo "[Step 4/6] Running econometric estimations and referee battery (SVAR, VECM, Toda-Yamamoto, Local Projections, Panel FE, Mediation, Placebo, Event Study, Liquidity)..."
 uv run --with scipy --with statsmodels --with matplotlib python3 scripts/analyze/estimate_models.py
 uv run --with scipy --with statsmodels python3 scripts/analyze/robustness_checks.py
+uv run --with scipy --with statsmodels --with matplotlib python3 scripts/analyze/extended_referee_battery.py
 
 echo "[Step 5/6] Compiling academic manuscript into PDF..."
 pdflatex -interaction=nonstopmode -output-directory=output/pdf paper/manuscript/main.tex > /dev/null

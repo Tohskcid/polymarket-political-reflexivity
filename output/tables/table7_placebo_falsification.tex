@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Placebo and Falsification Battery}
+\label{tab:placebo}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lcccc}
+\hline\hline
+Placebo Test & Sample / Setting & Key Test Statistic & $p$-value & Theoretical Implication \\
+\hline
+(1) Safe States Panel Fixed Effects & Non-Battleground (CA, TX, NY) & $\hat{\beta}_{1}=2.6918$ & 0.8769 & Multiplier vanishes when competition $\to 0$ \\
+(2) Non-Political Prediction Market & Fed 50 bps Cut Odds & Wald $\chi^2=3.54$ & 0.8961 & No spurious liquidity correlation \\
+(3) Swing States Baseline (Comparison) & 7 Battleground States & $\hat{\beta}_{1}=0.6444$ & 0.0260 & Statistically significant reflexivity \\
+\hline\hline
+\end{tabular}
+}
+\begin{minipage}{0.95\textwidth}
+\vspace{1ex}
+\footnotesize
+\textit{Notes:} Specification (1) estimates the baseline panel fixed effects model on three uncompetitive safe states ($N=3, T=242$). In safe states where the electoral outcome is pre-determined ($Comp \approx 0$), the price feedback collapses to statistical zero ($p>0.80$), confirming that reflexivity requires competitive viability. Specification (2) tests Toda-Yamamoto Granger causality from Polymarket Fed interest rate cut odds to presidential polling margins ($T=248$), confirming that general crypto/prediction market trading does not predict presidential polling without political content.
+\end{minipage}
+\end{table}
