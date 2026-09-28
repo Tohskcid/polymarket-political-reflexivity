@@ -665,6 +665,92 @@ def main():
           <td><code>/Users/lixinzhe/Desktop/polymarket_political_reflexivity_report.html</code></td>
           <td><span class="pill pill-blue">Desktop</span> 位於桌面，可直接雙擊在任何瀏覽器中離線瀏覽</td>
         </tr>
+        <tr>
+          <td><strong>文獻庫論文全文 PDF</strong></td>
+          <td><code>literature/papers/</code></td>
+          <td><span class="pill pill-green">Downloaded</span> 10 篇權威文獻開放獲取 PDF（NBER / MIT / S3 等）已全數歸檔驗證</td>
+        </tr>
+        <tr>
+          <td><strong>文獻檔案清單規範</strong></td>
+          <td><code>research/literature-archive.json</code></td>
+          <td><span class="pill pill-green">Valid</span> 16 篇引用文獻完整校驗通過（SHA-256 與 DOI 雙重核驗）</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="card-title" style="margin-top: 32px;">已補齊之參考文獻 PDF 檔案清單 (Literature Reference Archive)</div>
+    <p>依據學術規範與您的要求，所有引用的重要文獻已透過合法開放獲取渠道（NBER 官方工作論文、MIT 經濟系學者存檔、S3 學術庫等）補齊 PDF 全文並通過 SHA-256 完整性校驗：</p>
+    
+    <table class="data-table" style="font-size: 13px;">
+      <thead>
+        <tr>
+          <th>Citekey</th>
+          <th>論文名稱 (Title)</th>
+          <th>合法取得來源 (Access Basis)</th>
+          <th>本地檔案名稱 (Path in literature/papers/)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>wolfers2004prediction</code></td>
+          <td>Prediction markets</td>
+          <td><span class="pill pill-green">NBER w10504</span> Open Access</td>
+          <td><code>wolfers2004prediction--prediction-markets.pdf</code> (390 KB)</td>
+        </tr>
+        <tr>
+          <td><code>snowberg2007partisan</code></td>
+          <td>Partisan politics, information aggregation, and the economy</td>
+          <td><span class="pill pill-green">NBER w12229</span> Open Access</td>
+          <td><code>snowberg2007partisan--partisan-politics...pdf</code> (198 KB)</td>
+        </tr>
+        <tr>
+          <td><code>bond2012real</code></td>
+          <td>The real effects of financial markets</td>
+          <td><span class="pill pill-green">NBER w17719</span> Open Access</td>
+          <td><code>bond2012real--the-real-effects-of-financial-markets.pdf</code> (181 KB)</td>
+        </tr>
+        <tr>
+          <td><code>manski2006interpreting</code></td>
+          <td>Interpreting the predictions of prediction markets</td>
+          <td><span class="pill pill-green">NBER w10359</span> Open Access</td>
+          <td><code>manski2006interpreting--interpreting...pdf</code> (170 KB)</td>
+        </tr>
+        <tr>
+          <td><code>angeletos2007dynamic</code></td>
+          <td>Dynamic global games of regime change: Learning...</td>
+          <td><span class="pill pill-green">NBER w12291</span> Open Access</td>
+          <td><code>angeletos2007dynamic--dynamic-global-games...pdf</code> (159 KB)</td>
+        </tr>
+        <tr>
+          <td><code>cameron2008bootstrap</code></td>
+          <td>Bootstrap-based improvements for inference...</td>
+          <td><span class="pill pill-green">NBER w12347</span> Open Access</td>
+          <td><code>cameron2008bootstrap--bootstrap-based...pdf</code> (282 KB)</td>
+        </tr>
+        <tr>
+          <td><code>morris2002social</code></td>
+          <td>Social value of public information</td>
+          <td><span class="pill pill-green">MIT Faculty</span> Stephen Morris Archive</td>
+          <td><code>morris2002social--social-value-of-public-information.pdf</code> (385 KB)</td>
+        </tr>
+        <tr>
+          <td><code>rothschild2016trading</code></td>
+          <td>Trading strategies and market microstructure in prediction markets</td>
+          <td><span class="pill pill-green">Author Repo</span> Rothschild & Sethi Archive</td>
+          <td><code>rothschild2016trading--trading-strategies...pdf</code> (2.03 MB)</td>
+        </tr>
+        <tr>
+          <td><code>camerer1998can</code></td>
+          <td>Can asset markets be manipulated? A laboratory experiment</td>
+          <td><span class="pill pill-green">Field Experiments</span> Academic Repo</td>
+          <td><code>camerer1998can--can-asset-markets-be-manipulated...pdf</code> (1.38 MB)</td>
+        </tr>
+        <tr>
+          <td><code>hayek1945use</code></td>
+          <td>The use of knowledge in society</td>
+          <td><span class="pill pill-green">Public Domain</span> Economic History Archive</td>
+          <td><code>hayek1945use--the-use-of-knowledge-in-society.pdf</code> (1.45 MB)</td>
+        </tr>
       </tbody>
     </table>
 

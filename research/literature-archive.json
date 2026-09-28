@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-09-28T22:45:00Z",
+  "generated_at": "2026-09-28T23:45:00Z",
   "papers": [
     {
       "citekey": "soros1987alchemy",
@@ -9,11 +9,11 @@
       "authors": [
         "Soros, George"
       ],
-      "canonical_locator": "https://doi.org/10.1257/soros1987alchemy",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "canonical_locator": "https://www.simonandschuster.com/books/The-Alchemy-of-Finance/George-Soros/9780471042068",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "Publisher monograph copyright; metadata verified via publisher canonical catalog",
       "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "reason": "Commercial monograph copyright (Simon & Schuster / John Wiley & Sons); print and commercial distribution only."
     },
     {
       "citekey": "soros2013fallibility",
@@ -22,11 +22,11 @@
       "authors": [
         "Soros, George"
       ],
-      "canonical_locator": "https://doi.org/10.1257/soros2013fallibility",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "canonical_locator": "https://doi.org/10.1080/1350178X.2013.859415",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "Journal publication copyright metadata; verified via CrossRef DOI",
       "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "reason": "Publisher copyright restricted (Taylor & Francis / Journal of Economic Methodology); institutional or subscription access required."
     },
     {
       "citekey": "wolfers2004prediction",
@@ -36,11 +36,14 @@
         "Wolfers, Justin",
         "Zitzewitz, Eric"
       ],
-      "canonical_locator": "https://doi.org/10.1257/wolfers2004prediction",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
-      "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "canonical_locator": "https://doi.org/10.1257/0895330041371321",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "NBER Working Paper open-access dissemination (w10504)",
+      "access_status": "downloaded",
+      "download_locator": "https://www.nber.org/system/files/working_papers/w10504/w10504.pdf",
+      "retrieved_at": "2026-09-28T23:45:00Z",
+      "file": "literature/papers/wolfers2004prediction--prediction-markets.pdf",
+      "sha256": "e10bb2774d64dff894d15f76603aca8725e3d8d63fbc4e477cce59049494724c"
     },
     {
       "citekey": "snowberg2007partisan",
@@ -51,11 +54,14 @@
         "Wolfers, Justin",
         "Zitzewitz, Eric"
       ],
-      "canonical_locator": "https://doi.org/10.1257/snowberg2007partisan",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
-      "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "canonical_locator": "https://doi.org/10.1162/qjec.122.2.807",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "NBER Working Paper open-access dissemination (w12229)",
+      "access_status": "downloaded",
+      "download_locator": "https://www.nber.org/system/files/working_papers/w12229/w12229.pdf",
+      "retrieved_at": "2026-09-28T23:45:00Z",
+      "file": "literature/papers/snowberg2007partisan--partisan-politics-information-aggregation-and-the-economy-evidence-from-predicti.pdf",
+      "sha256": "7f233750a7dab48fe52d6f123202989abd2bd1698c0b24260926c1a48099e375"
     },
     {
       "citekey": "bond2012real",
@@ -66,11 +72,14 @@
         "Edmans, Alex",
         "Goldstein, Itay"
       ],
-      "canonical_locator": "https://doi.org/10.1257/bond2012real",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
-      "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "canonical_locator": "https://doi.org/10.1146/annurev-financial-110311-101311",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "NBER Working Paper open-access dissemination (w17719)",
+      "access_status": "downloaded",
+      "download_locator": "https://www.nber.org/system/files/working_papers/w17719/w17719.pdf",
+      "retrieved_at": "2026-09-28T23:45:00Z",
+      "file": "literature/papers/bond2012real--the-real-effects-of-financial-markets.pdf",
+      "sha256": "74a7a9c6d6a1b61c60d741ae09e70abdd38b8581dfca76cfc8663b844957ef28"
     },
     {
       "citekey": "manski2006interpreting",
@@ -79,11 +88,14 @@
       "authors": [
         "Manski, Charles F"
       ],
-      "canonical_locator": "https://doi.org/10.1257/manski2006interpreting",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
-      "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "canonical_locator": "https://doi.org/10.1016/j.econlet.2005.12.003",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "NBER Working Paper open-access dissemination (w10359)",
+      "access_status": "downloaded",
+      "download_locator": "https://www.nber.org/system/files/working_papers/w10359/w10359.pdf",
+      "retrieved_at": "2026-09-28T23:45:00Z",
+      "file": "literature/papers/manski2006interpreting--interpreting-the-predictions-of-prediction-markets.pdf",
+      "sha256": "edf3d143de3c522029dc5c51200240bacdffa82cff086c4c28744f78c34ddc4d"
     },
     {
       "citekey": "rothschild2016trading",
@@ -93,11 +105,14 @@
         "Rothschild, David",
         "Sethi, Rajiv"
       ],
-      "canonical_locator": "https://doi.org/10.1257/rothschild2016trading",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
-      "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "canonical_locator": "https://doi.org/10.5750/jpm.v10i1.1215",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "Author-hosted working paper repository (Rothschild & Sethi)",
+      "access_status": "downloaded",
+      "download_locator": "https://researchdmr.com/files/JournalofPredictionMarkets2016WP.pdf",
+      "retrieved_at": "2026-09-28T23:45:00Z",
+      "file": "literature/papers/rothschild2016trading--trading-strategies-and-market-microstructure-in-prediction-markets.pdf",
+      "sha256": "236c4170d1575c1ba391ee721ea973ae1a977057e6260fbf91a513bbdf6eddb0"
     },
     {
       "citekey": "grossman1980impossibility",
@@ -107,11 +122,11 @@
         "Grossman, Sanford J",
         "Stiglitz, Joseph E"
       ],
-      "canonical_locator": "https://doi.org/10.1257/grossman1980impossibility",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "canonical_locator": "https://doi.org/10.1257/aer.70.3.393",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "American Economic Association journal copyright metadata",
       "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "reason": "Publisher copyright restricted (American Economic Association / American Economic Review); access requires JSTOR or AEA subscription."
     },
     {
       "citekey": "morris2002social",
@@ -121,11 +136,14 @@
         "Morris, Stephen",
         "Shin, Hyun Song"
       ],
-      "canonical_locator": "https://doi.org/10.1257/morris2002social",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
-      "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "canonical_locator": "https://doi.org/10.1257/000282802762024610",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "MIT Department of Economics author-hosted faculty preprint",
+      "access_status": "downloaded",
+      "download_locator": "https://economics.mit.edu/sites/default/files/publications/morris-socialvalueofpublicinformation.pdf",
+      "retrieved_at": "2026-09-28T23:45:00Z",
+      "file": "literature/papers/morris2002social--social-value-of-public-information.pdf",
+      "sha256": "b3c0a92fe88b294789abc6465bb8370ecd602316b7c31a698be838db36fa0f46"
     },
     {
       "citekey": "angeletos2007dynamic",
@@ -136,11 +154,14 @@
         "Hellwig, Christian",
         "Pavan, Alessandro"
       ],
-      "canonical_locator": "https://doi.org/10.1257/angeletos2007dynamic",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
-      "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "canonical_locator": "https://doi.org/10.1111/j.1468-0262.2007.00768.x",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "NBER Working Paper open-access dissemination (w12291)",
+      "access_status": "downloaded",
+      "download_locator": "https://www.nber.org/system/files/working_papers/w12291/w12291.pdf",
+      "retrieved_at": "2026-09-28T23:45:00Z",
+      "file": "literature/papers/angeletos2007dynamic--dynamic-global-games-of-regime-change-learning-multiplicity-and-the-timing-of-at.pdf",
+      "sha256": "e57b29c96e4efdce604c708889499e66610df4a2f2d6cbfb84dcbde210cb5a7c"
     },
     {
       "citekey": "toda1995statistical",
@@ -150,37 +171,37 @@
         "Toda, Hiro Y",
         "Yamamoto, Taku"
       ],
-      "canonical_locator": "https://doi.org/10.1257/toda1995statistical",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "canonical_locator": "https://doi.org/10.1016/0304-4076(94)01616-8",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "Elsevier ScienceDirect journal copyright metadata",
       "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "reason": "Publisher copyright restricted (Elsevier / Journal of Econometrics); access requires ScienceDirect institutional subscription."
     },
     {
       "citekey": "jorda2005estimation",
       "title": "Estimation and inference of impulse responses by local projections",
       "year": 2005,
       "authors": [
-        "Jord{\\`a"
+        "Jordà, Òscar"
       ],
-      "canonical_locator": "https://doi.org/10.1257/jorda2005estimation",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "canonical_locator": "https://doi.org/10.1257/0002828053828696",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "American Economic Association journal copyright metadata",
       "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "reason": "Publisher copyright restricted (American Economic Association / American Economic Review); access requires AEA subscription."
     },
     {
       "citekey": "johansen1991estimation",
       "title": "Estimation and hypothesis testing of cointegration vectors in Gaussian vector autoregressive models",
       "year": 1991,
       "authors": [
-        "Johansen, S{\\o"
+        "Johansen, Søren"
       ],
-      "canonical_locator": "https://doi.org/10.1257/johansen1991estimation",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "canonical_locator": "https://doi.org/10.2307/2938278",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "Econometric Society / Wiley journal copyright metadata",
       "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "reason": "Publisher copyright restricted (Econometric Society / Wiley / Econometrica); access requires JSTOR or Wiley subscription."
     },
     {
       "citekey": "hayek1945use",
@@ -189,11 +210,14 @@
       "authors": [
         "Hayek, Friedrich A"
       ],
-      "canonical_locator": "https://doi.org/10.1257/hayek1945use",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
-      "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "canonical_locator": "https://doi.org/10.2307/1809376",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "Public domain economic literature repository",
+      "access_status": "downloaded",
+      "download_locator": "https://statisticaleconomics.org/wp-content/uploads/2013/03/the_use_of_knowledge_in_society_-_hayek.pdf",
+      "retrieved_at": "2026-09-28T23:45:00Z",
+      "file": "literature/papers/hayek1945use--the-use-of-knowledge-in-society.pdf",
+      "sha256": "73c21ec66254a192c8a1835de802b567fd8839a81de97b70248a9db65a0c5845"
     },
     {
       "citekey": "camerer1998can",
@@ -202,11 +226,14 @@
       "authors": [
         "Camerer, Colin"
       ],
-      "canonical_locator": "https://doi.org/10.1257/camerer1998can",
-      "verified_at": "2026-09-28T22:45:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
-      "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "canonical_locator": "https://doi.org/10.1086/250018",
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "Field Experiments open academic research repository",
+      "access_status": "downloaded",
+      "download_locator": "https://s3.amazonaws.com/fieldexperiments-papers2/papers/00222.pdf",
+      "retrieved_at": "2026-09-28T23:45:00Z",
+      "file": "literature/papers/camerer1998can--can-asset-markets-be-manipulated-a-laboratory-experiment.pdf",
+      "sha256": "62db7348ddf6887a380a47192d8edc031f4c9fc1669f5706d62e3266dcc2c590"
     },
     {
       "citekey": "cameron2008bootstrap",
@@ -218,10 +245,13 @@
         "Miller, Douglas L"
       ],
       "canonical_locator": "https://doi.org/10.1162/rest.90.3.414",
-      "verified_at": "2026-09-28T22:56:00Z",
-      "access_basis": "Author-hosted working paper / publisher open access metadata",
-      "access_status": "restricted",
-      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+      "verified_at": "2026-09-28T23:45:00Z",
+      "access_basis": "NBER Working Paper open-access dissemination (w12347)",
+      "access_status": "downloaded",
+      "download_locator": "https://www.nber.org/system/files/working_papers/w12347/w12347.pdf",
+      "retrieved_at": "2026-09-28T23:45:00Z",
+      "file": "literature/papers/cameron2008bootstrap--bootstrap-based-improvements-for-inference-with-clustered-errors.pdf",
+      "sha256": "9e1b13e4def8039e3c6c28f03ce6a39291c7d90359ddd8fc0b20d6455ae3e2e2"
     }
   ]
 }
