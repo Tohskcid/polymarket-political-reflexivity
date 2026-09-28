@@ -38,8 +38,9 @@ pdflatex -interaction=nonstopmode -output-directory=output/pdf paper/manuscript/
 # Clean auxiliary LaTeX build files to maintain pristine layout
 rm -f output/pdf/main.{aux,bbl,blg,log,out}
 
-echo "[Step 6/6] Verifying research package and project layout gates..."
+echo "[Step 6/6] Verifying research package, literature archive, and project layout gates..."
 python3 scripts/check_data_provenance.py research/data-provenance.json --root . --json
+python3 scripts/check_literature_archive.py research/literature-archive.json --bibliography paper/references/references.bib --root . --json
 python3 scripts/check_research_package.py --config research/package.json --root .
 python3 scripts/check_project_layout.py --root . --json
 
