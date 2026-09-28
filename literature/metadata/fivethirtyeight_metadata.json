@@ -1,0 +1,7 @@
+{
+  "name": "FiveThirtyEight 2024 US Presidential General Election Polling Averages",
+  "source": "FiveThirtyEight / ABC News GitHub Data Repository",
+  "url": "https://github.com/fivethirtyeight/data/tree/master/polls/2024-averages",
+  "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+  "license_url": "https://github.com/fivethirtyeight/data/blob/master/LICENSE"
+}

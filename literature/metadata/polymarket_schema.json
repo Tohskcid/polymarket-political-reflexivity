@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "t": {
+            "type": "integer",
+            "description": "Unix timestamp in seconds"
+          },
+          "p": {
+            "type": "number",
+            "description": "Closing price/implied probability in [0, 1]"
+          }
+        },
+        "required": [
+          "t",
+          "p"
+        ]
+      }
+    }
+  }
+}

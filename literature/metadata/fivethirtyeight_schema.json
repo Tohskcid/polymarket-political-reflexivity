@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "candidate": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "state": {
+      "type": "string"
+    },
+    "cycle": {
+      "type": "integer"
+    },
+    "party": {
+      "type": "string"
+    },
+    "pct_estimate": {
+      "type": "number"
+    },
+    "hi": {
+      "type": "number"
+    },
+    "lo": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "candidate",
+    "date",
+    "cycle",
+    "pct_estimate"
+  ]
+}

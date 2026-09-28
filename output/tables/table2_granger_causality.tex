@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\caption{Toda-Yamamoto (1995) Bidirectional Granger Causality Tests Across Lags}
+\label{tab:granger_causality}
+\begin{tabular}{lcccccc}
+\hline\hline
+ & & \multicolumn{2}{c}{Polymarket $\to$ Polling (Reflexivity)} & & \multicolumn{2}{c}{Polling $\to$ Polymarket (Information)} \\
+\cline{3-4}\cline{6-7}
+Lag ($p$) & VAR ($p+d_{\max}$) & Wald $\chi^2$ & $p$-value & & Wald $\chi^2$ & $p$-value \\
+\hline
+$p=1$ days & VAR(2) & 0.283 & 0.8681 & & 3.317 & 0.1904 \\
+$p=2$ days & VAR(3) & 1.649 & 0.6484 & & 3.945 & 0.2675 \\
+$p=3$ days & VAR(4) & 4.484 & 0.3445 & & 8.215* & 0.0840 \\
+$p=5$ days & VAR(6) & 44.869*** & <0.0001 & & 8.520 & 0.2024 \\
+$p=7$ days & VAR(8) & 57.933*** & <0.0001 & & 14.131* & 0.0784 \\
+\hline\hline
+\end{tabular}
+\begin{minipage}{0.95\textwidth}
+\vspace{1ex}
+\footnotesize
+\textit{Notes:} Tests estimated using the Toda-Yamamoto (1995) lag-augmented vector autoregression VAR($p+d_{\max}$) in levels with $d_{\max}=1$. Wald statistics asymptotically follow a $\chi^2(p)$ distribution under the null. At $p=5$ and $p=7$ days—matching the empirical fieldwork and publishing latency of nationwide political opinion polls—the hypothesis that prediction markets do not causally affect polling numbers is rejected at the $p < 0.0001$ level, providing robust evidence for political reflexivity.
+\end{minipage}
+\end{table}

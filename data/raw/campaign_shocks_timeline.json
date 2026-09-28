@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2024-01-15",
+    "event": "Iowa Caucuses",
+    "type": "primary",
+    "description": "Trump wins Iowa caucuses with 51% of vote."
+  },
+  {
+    "date": "2024-03-05",
+    "event": "Super Tuesday",
+    "type": "primary",
+    "description": "Trump sweeps Super Tuesday primaries; Haley suspends campaign on March 6."
+  },
+  {
+    "date": "2024-05-30",
+    "event": "Trump NY Verdict",
+    "type": "legal",
+    "description": "Jury finds Trump guilty on all 34 felony counts in Manhattan."
+  },
+  {
+    "date": "2024-06-27",
+    "event": "First Presidential Debate",
+    "type": "debate",
+    "description": "CNN Presidential Debate between Biden and Trump in Atlanta."
+  },
+  {
+    "date": "2024-07-13",
+    "event": "Trump Assassination Attempt",
+    "type": "shock",
+    "description": "Trump injured in shooting at campaign rally in Butler, PA."
+  },
+  {
+    "date": "2024-07-15",
+    "event": "Republican National Convention",
+    "type": "convention",
+    "description": "RNC convenes in Milwaukee; Vance announced as VP."
+  },
+  {
+    "date": "2024-07-21",
+    "event": "Biden Withdrawal & Endorsement",
+    "type": "structural_change",
+    "description": "Biden announces withdrawal from presidential race and endorses Harris."
+  },
+  {
+    "date": "2024-08-19",
+    "event": "Democratic National Convention",
+    "type": "convention",
+    "description": "DNC convenes in Chicago; Harris accepts presidential nomination."
+  },
+  {
+    "date": "2024-09-10",
+    "event": "Second Presidential Debate",
+    "type": "debate",
+    "description": "ABC News debate between Harris and Trump in Philadelphia."
+  },
+  {
+    "date": "2024-10-05",
+    "event": "Polymarket Whale Influx (Fredi9999/Th\u00e9o)",
+    "type": "market_microstructure",
+    "description": "Four anonymous accounts (Fredi9999, Theo4, PrincessCaro, Michie) begin massive Trump bet accumulation ($30M+)."
+  },
+  {
+    "date": "2024-11-05",
+    "event": "Election Day",
+    "type": "election",
+    "description": "2024 United States Presidential Election polls close."
+  }
+]

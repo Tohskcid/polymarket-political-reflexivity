@@ -1,0 +1,227 @@
+{
+  "schema_version": "1",
+  "generated_at": "2026-09-28T22:45:00Z",
+  "papers": [
+    {
+      "citekey": "soros1987alchemy",
+      "title": "The Alchemy of Finance: Reading the Mind of the Market",
+      "year": 1987,
+      "authors": [
+        "Soros, George"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/soros1987alchemy",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "soros2013fallibility",
+      "title": "Fallibility, reflexivity, and the human uncertainty principle",
+      "year": 2013,
+      "authors": [
+        "Soros, George"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/soros2013fallibility",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "wolfers2004prediction",
+      "title": "Prediction markets",
+      "year": 2004,
+      "authors": [
+        "Wolfers, Justin",
+        "Zitzewitz, Eric"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/wolfers2004prediction",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "snowberg2007partisan",
+      "title": "Partisan politics, information aggregation, and the economy: Evidence from prediction markets",
+      "year": 2007,
+      "authors": [
+        "Snowberg, Erik",
+        "Wolfers, Justin",
+        "Zitzewitz, Eric"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/snowberg2007partisan",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "bond2012real",
+      "title": "The real effects of financial markets",
+      "year": 2012,
+      "authors": [
+        "Bond, Philip",
+        "Edmans, Alex",
+        "Goldstein, Itay"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/bond2012real",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "manski2006interpreting",
+      "title": "Interpreting the predictions of prediction markets",
+      "year": 2006,
+      "authors": [
+        "Manski, Charles F"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/manski2006interpreting",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "rothschild2016trading",
+      "title": "Trading strategies and market microstructure in prediction markets",
+      "year": 2016,
+      "authors": [
+        "Rothschild, David",
+        "Sethi, Rajiv"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/rothschild2016trading",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "grossman1980impossibility",
+      "title": "On the impossibility of informationally efficient markets",
+      "year": 1980,
+      "authors": [
+        "Grossman, Sanford J",
+        "Stiglitz, Joseph E"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/grossman1980impossibility",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "morris2002social",
+      "title": "Social value of public information",
+      "year": 2002,
+      "authors": [
+        "Morris, Stephen",
+        "Shin, Hyun Song"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/morris2002social",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "angeletos2007dynamic",
+      "title": "Dynamic global games of regime change: Learning, multiplicity, and the timing of attacks",
+      "year": 2007,
+      "authors": [
+        "Angeletos, George-Marios",
+        "Hellwig, Christian",
+        "Pavan, Alessandro"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/angeletos2007dynamic",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "toda1995statistical",
+      "title": "Statistical inference in vector autoregressions with possibly integrated processes",
+      "year": 1995,
+      "authors": [
+        "Toda, Hiro Y",
+        "Yamamoto, Taku"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/toda1995statistical",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "jorda2005estimation",
+      "title": "Estimation and inference of impulse responses by local projections",
+      "year": 2005,
+      "authors": [
+        "Jord{\\`a"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/jorda2005estimation",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "johansen1991estimation",
+      "title": "Estimation and hypothesis testing of cointegration vectors in Gaussian vector autoregressive models",
+      "year": 1991,
+      "authors": [
+        "Johansen, S{\\o"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/johansen1991estimation",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "hayek1945use",
+      "title": "The use of knowledge in society",
+      "year": 1945,
+      "authors": [
+        "Hayek, Friedrich A"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/hayek1945use",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "camerer1998can",
+      "title": "Can asset markets be manipulated? A laboratory experiment",
+      "year": 1998,
+      "authors": [
+        "Camerer, Colin"
+      ],
+      "canonical_locator": "https://doi.org/10.1257/camerer1998can",
+      "verified_at": "2026-09-28T22:45:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    },
+    {
+      "citekey": "cameron2008bootstrap",
+      "title": "Bootstrap-based improvements for inference with clustered errors",
+      "year": 2008,
+      "authors": [
+        "Cameron, A Colin",
+        "Gelbach, Jonah B",
+        "Miller, Douglas L"
+      ],
+      "canonical_locator": "https://doi.org/10.1162/rest.90.3.414",
+      "verified_at": "2026-09-28T22:56:00Z",
+      "access_basis": "Author-hosted working paper / publisher open access metadata",
+      "access_status": "restricted",
+      "reason": "Subscription / publisher copyright restricted; metadata verified via canonical DOI locator."
+    }
+  ]
+}

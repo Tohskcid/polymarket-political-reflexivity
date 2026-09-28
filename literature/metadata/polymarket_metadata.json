@@ -1,0 +1,8 @@
+{
+  "name": "Polymarket 2024 US Presidential Election Market Price History",
+  "source": "Polymarket CLOB API",
+  "endpoint": "https://clob.polymarket.com/prices-history",
+  "description": "Daily historical prices for national winner and 7 battleground states in the 2024 US Presidential Election.",
+  "license": "Public Market Data under Polymarket Terms of Service",
+  "license_url": "https://polymarket.com/terms-of-service"
+}

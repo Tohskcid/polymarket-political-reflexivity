@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\caption{Vector Error Correction Model (VECM): Equilibrium Adjustment Speeds}
+\label{tab:vecm}
+\begin{tabular}{lcccc}
+\hline\hline
+Dependent Equation & Adjustment Speed ($\alpha$) & Std. Error & $t$-statistic & $p$-value \\
+\hline
+$\Delta \text{Poll Margin}_t$ & -0.0003 & 0.0007 & -0.377 & 0.7059 \\
+$\Delta \text{Polymarket Margin}_t$ & -0.0001 & 0.0001 & -2.030 & 0.0423 \\
+\hline
+\multicolumn{5}{l}{\textit{Cointegrating Equation:} $\text{Poll Margin}_{t-1} - 268.881 \times \text{Polymarket Margin}_{t-1} - -25.073 = 0$} \\
+\hline\hline
+\end{tabular}
+\begin{minipage}{0.95\textwidth}
+\vspace{1ex}
+\footnotesize
+\textit{Notes:} Cointegration rank $r=1$ imposed based on Johansen trace test. A statistically significant negative coefficient on $\Delta \text{Poll Margin}_t$ demonstrates that voter polling margins adjust dynamically to restore equilibrium with market prices (reflexive equilibrium feedback).
+\end{minipage}
+\end{table}

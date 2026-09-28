@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Unit Root and Stationarity Tests: National Polymarket and Polling Margins}
+\label{tab:unit_root}
+\begin{tabular}{lcccccc}
+\hline\hline
+Variable & ADF Stat. & $p$-val & 5\% Crit. & KPSS Stat. & $p$-val & Inferred Order \\
+\hline
+Polymarket Margin ($P_t$) & -1.935 & 0.316 & -2.873 & 0.255 & 0.100 & I(1) Non-stationary \\
+Polling Margin ($Poll_t$) & -1.240 & 0.656 & -2.873 & 1.784 & 0.010 & I(1) Non-stationary \\
+$\Delta$ Polymarket Margin ($\Delta P_t$) & -11.939 & 0.000 & -2.873 & 0.062 & 0.100 & I(0) Stationary \\
+$\Delta$ Polling Margin ($\Delta Poll_t$) & -16.099 & 0.000 & -2.873 & 0.056 & 0.100 & I(0) Stationary \\
+\hline\hline
+\end{tabular}
+\begin{minipage}{0.95\textwidth}
+\vspace{1ex}
+\footnotesize
+\textit{Notes:} Sample spans 2024-03-01 to 2024-11-06 ($T=251$ days). Augmented Dickey-Fuller (ADF) null hypothesis is presence of a unit root ($I(1)$); KPSS null hypothesis is stationarity ($I(0)$). Lag lengths are selected automatically via AIC.
+\end{minipage}
+\end{table}

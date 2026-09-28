@@ -1,0 +1,5 @@
+iteration	mode	hypothesis	validation	status	artifact	reason
+0	theory	Microfounded REE with feedback yields unique multiplier for moderate lambda and bifurcation for high lambda	Analytical paper proof of fixed point derivative and contraction mapping	keep	research/sections/theory_derivation.md	Initial theoretical microfoundations completed
+1	empirical	Polymarket prices Granger-cause real-world political polling margins (Toda-Yamamoto MWALD)	ADF tests + Toda-Yamamoto MWALD procedure on 2024 Presidential Election cycle	keep	output/tables/table2_granger_causality.tex	Baseline empirical reflexivity test
+2	empirical	Polymarket odds shocks induce persistent cumulative shifts in voter polling margins	Jorda (2005) Local Projections with Newey-West standard errors up to 14 days	keep	output/figures/figure3_local_projections.pdf	Dynamic reflexivity impulse response
+3	empirical	Battleground swing states exhibit higher reflexivity elasticity than non-swing states	Panel fixed effects regression with state-clustered SEs	keep	output/tables/table4_panel_fe.tex	Spatial and political heterogeneity

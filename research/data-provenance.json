@@ -1,0 +1,83 @@
+{
+  "schema_version": "1",
+  "generated_at": "2026-09-28T22:42:00Z",
+  "datasets": [
+    {
+      "id": "polymarket_2024",
+      "kind": "real",
+      "name": "Polymarket 2024 US Presidential Election Prediction Market Prices",
+      "producer": "Polymarket (Polymarket CTF Exchange)",
+      "locator": "https://clob.polymarket.com",
+      "version": "2024-11-06",
+      "unit": "market-day",
+      "coverage": "National party and candidate winner contracts, 7 battleground states (2024-01-01 to 2024-11-06)",
+      "license": "Polymarket Public Market Data Terms of Service",
+      "license_locator": "https://polymarket.com/terms-of-service",
+      "retrieved_at": "2026-09-28T22:40:00Z",
+      "source_evidence_artifact": "literature/metadata/polymarket_metadata.json",
+      "source_evidence_sha256": "48377eed699ea779474b1be2345aab208fa2001db808e8e13a70893e71eb2b04",
+      "schema_artifact": "literature/metadata/polymarket_schema.json",
+      "schema_sha256": "64ffcc4b1f83d576e1a807205a11c5b3e02ba8967f664bdba6b3f6aa9a463b6a",
+      "acquisition": {
+        "method": "script",
+        "command": "python3 scripts/acquire/fetch_all_data.py",
+        "executed_at": "2026-09-28T22:40:00Z",
+        "artifact": "scripts/acquire/fetch_all_data.py",
+        "artifact_sha256": "988933f47d741c31b46e4a5ce3bc4746cdc7363af1dc58b70096701b758d5319"
+      },
+      "files": [
+        {
+          "role": "raw",
+          "path": "data/raw/polymarket_national_daily.json",
+          "sha256": "31dfcd19a9c1b2098ad5afc554eec68f97a26fd45023e35f8cf29d18381e02dd"
+        },
+        {
+          "role": "raw",
+          "path": "data/raw/polymarket_swing_states_daily.json",
+          "sha256": "6ecdee442ab379dc92e6ae83f8c04e6cd92b50c39bd19f9da1cac7412579aedd"
+        },
+        {
+          "role": "intermediate",
+          "path": "data/processed/national_daily_analysis.csv",
+          "sha256": "c27c8fb996e13c18510ce1f27076c517e246146c20d68621a8eaab8f87e9347a"
+        },
+        {
+          "role": "intermediate",
+          "path": "data/processed/swing_states_panel.csv",
+          "sha256": "1ec279e5a2a011c6671f849ce3296c9cec23ea0eefd8b48a4910c1f5e47c0013"
+        }
+      ]
+    },
+    {
+      "id": "fivethirtyeight_polls_2024",
+      "kind": "real",
+      "name": "FiveThirtyEight 2024 US Presidential General Election Polling Averages",
+      "producer": "ABC News / FiveThirtyEight",
+      "locator": "https://github.com/fivethirtyeight/data",
+      "version": "2024-09-12",
+      "unit": "candidate-state-day",
+      "coverage": "National and 15 state presidential polling averages across 2024 cycle",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "license_locator": "https://github.com/fivethirtyeight/data/blob/master/LICENSE",
+      "retrieved_at": "2026-09-28T22:40:00Z",
+      "source_evidence_artifact": "literature/metadata/fivethirtyeight_metadata.json",
+      "source_evidence_sha256": "6a02b3accccadb299838fc11c564b264141685b785ce9f5222ac51d7028b62fb",
+      "schema_artifact": "literature/metadata/fivethirtyeight_schema.json",
+      "schema_sha256": "7e7805d1345bcf6e8e79eed1f5247b7851ab323fd5867ce5db4e71932568283a",
+      "acquisition": {
+        "method": "script",
+        "command": "python3 scripts/acquire/fetch_all_data.py",
+        "executed_at": "2026-09-28T22:40:00Z",
+        "artifact": "scripts/acquire/fetch_all_data.py",
+        "artifact_sha256": "988933f47d741c31b46e4a5ce3bc4746cdc7363af1dc58b70096701b758d5319"
+      },
+      "files": [
+        {
+          "role": "raw",
+          "path": "data/raw/fivethirtyeight_polls_2024.csv",
+          "sha256": "c66cf38aa566c3dfa0b50823e8259d9631bfb5ab830c18af13dd54204a8d8b35"
+        }
+      ]
+    }
+  ]
+}

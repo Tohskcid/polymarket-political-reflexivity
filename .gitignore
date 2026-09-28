@@ -8,16 +8,20 @@ env/
 venv/
 .venv/
 
-# Outputs & temporary files
-output/*
+# Temporary / test outputs
 test_output/
-*.csv
-!tests/fixtures/*.csv
+build/
+tmp/
+
+# Formats
 *.dta
 *.parquet
 *.xlsx
+
 # LaTeX build artifacts
 *.aux
+*.bbl
+*.blg
 *.log
 *.fls
 *.fdb_latexmk

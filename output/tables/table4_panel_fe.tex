@@ -1,0 +1,29 @@
+\begin{table}[htbp]
+\centering
+\caption{Panel Fixed Effects Estimation: Battleground State Reflexivity}
+\label{tab:panel_fe}
+\begin{tabular}{lcc}
+\hline\hline
+Dependent Variable: $\Delta \text{Poll Margin}_{s,t}$ & Model (1): Baseline & Model (2): Interaction \\
+\hline
+$\Delta \text{Polymarket Margin}_{s,t-1}$ & 0.6444 & -0.3517 \\
+ & (0.2900) & (0.1850) \\
+Competitiveness$_{s,t-1}$ & & -0.1729 \\
+ & & (0.0421) \\
+$\Delta \text{Polymarket}_{s,t-1} \times \text{Competitiveness}_{s,t-1}$ & & 1.8339* \\
+ & & (0.5352) \\
+$\Delta \text{Poll Margin}_{s,t-1}$ & -0.0119 & -0.0163 \\
+ & (0.0152) & (0.0160) \\
+\hline
+State Fixed Effects & Yes & Yes \\
+Observations ($N \times T$) & 1701 & 1701 \\
+Number of Battleground States & 7 & 7 \\
+$R^2$ & 0.0040 & 0.0097 \\
+\hline\hline
+\end{tabular}
+\begin{minipage}{0.95\textwidth}
+\vspace{1ex}
+\footnotesize
+\textit{Notes:} Standard errors clustered at the state level in parentheses. * $p < 0.10$, ** $p < 0.05$, *** $p < 0.01$. The positive interaction coefficient validates Proposition 2: reflexivity feedback from prediction markets to voter preferences is amplified in competitive toss-up states.
+\end{minipage}
+\end{table}

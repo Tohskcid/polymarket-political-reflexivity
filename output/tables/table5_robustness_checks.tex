@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Robustness and Falsification Battery}
+\label{tab:robustness}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lcccc}
+\hline\hline
+Specification / Check & Sample & Key Test Stat. & $p$-value & Theoretical Consistency \\
+\hline
+(1) Toda-Yamamoto with Event Dummies & Full ($T=251$) & Wald $\chi^2=59.61$ & 0.0000 & Robust to common news shocks \\
+(2) Pre-Whale Influx Subsample & Pre-Oct 5 ($T=218$) & Wald $\chi^2=61.09$ & 0.0000 & Not driven solely by whale influx \\
+(3) Panel FE with Day-of-Week Effects & Panel ($N=7, T=248$) & $\hat{\beta}_{inter}=1.8820$ & 0.0005 & Competitiveness multiplier holds \\
+\hline\hline
+\end{tabular}
+}
+\begin{minipage}{0.95\textwidth}
+\vspace{1ex}
+\footnotesize
+\textit{Notes:} Specification (1) includes exogenous indicators for presidential debates, the Butler assassination attempt, Biden's withdrawal, and the October whale surge in the lag-augmented VAR(8). Specification (2) re-estimates Toda-Yamamoto causality restricting to dates prior to the October 5, 2024 whale surge. Specification (3) re-estimates the swing state panel model adding day-of-week fixed effects with state-clustered standard errors.
+\end{minipage}
+\end{table}
